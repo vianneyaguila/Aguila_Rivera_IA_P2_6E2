@@ -1,4 +1,6 @@
-from collections import deque
+from collections import deque # "cola de doble extremo") desde el módulo  
+#Es una estructura de datos parecida a una lista , pero más eficiente para agregar o quitar elementos al principio o al final .
+#Ideal para implementar colas y pilas de forma eficiente.
 
 def bfs(grafo, inicio, objetivo):
     """

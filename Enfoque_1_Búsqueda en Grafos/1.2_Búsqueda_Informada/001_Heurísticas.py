@@ -1,4 +1,6 @@
-import heapq
+import heapq #módulo de Python queque permite usar una cola de prioridad implementada
+# En un montón, el elemento con menor valor siempre está al principio.
+# no es una palabra reservada como printo while. Es una librería externa estándar de Python, por eso necesitas importarla explícitamente antes de usar sus funciones como heapq.heappusho heapq.heappop.
 
 def a_star(grafo, inicio, objetivo, heuristica):
     # Inicialización: cola de prioridad (f, g, nodo, camino)
